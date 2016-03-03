@@ -1,0 +1,32 @@
+{
+  "name": "call-all-fns",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Wrap a set of functions in a single function that calls each",
+  "license": "MIT",
+  "repository": "bendrucker/call-all-fns",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "call",
+    "all",
+    "functions",
+    "fns"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^6.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "to-array": "~0.1.4"
+  }
+}

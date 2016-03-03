@@ -1,0 +1,19 @@
+'use strict'
+
+var test = require('tape')
+var callAll = require('./')
+
+test(function (t) {
+  t.plan(3)
+  var all = callAll([
+    function (value) {
+      t.equal(value, 1, 'first call')
+      return 0
+    },
+    function (value) {
+      t.equal(value, 1, 'second call')
+      return 1
+    }
+  ])
+  t.deepEqual(all(1), [0, 1])
+})
