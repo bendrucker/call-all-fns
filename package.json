@@ -1,7 +1,7 @@
 {
   "name": "call-all-fns",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap a set of functions in a single function that calls each",
   "license": "MIT",
   "repository": "bendrucker/call-all-fns",
