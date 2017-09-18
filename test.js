@@ -13,9 +13,10 @@ test(function (t) {
     function (value) {
       t.equal(value, 1, 'second call')
       return 1
-    }
+    },
+    false
   ])
-  t.deepEqual(all(1), [0, 1])
+  t.deepEqual(all(1), [0, 1, undefined])
 })
 
 test(function (t) {

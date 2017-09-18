@@ -8,7 +8,7 @@ function CallAll (fns) {
     var args = arguments
     var ret = new Array(fns.length)
     for (var i = 0, ii = fns.length; i < ii; i++) {
-      ret[i] = fns[i].apply(null, args)
+      ret[i] = !fns[i] ? undefined : fns[i].apply(null, args)
     }
     return ret
   }
