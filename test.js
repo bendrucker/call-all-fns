@@ -17,3 +17,12 @@ test(function (t) {
   ])
   t.deepEqual(all(1), [0, 1])
 })
+
+test(function (t) {
+  t.plan(1)
+  var all = callAll(
+    function (value) { return value },
+    function (value) { return value * 2 }
+  )
+  t.deepEqual(all(1), [1, 2])
+})
