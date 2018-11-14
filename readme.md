@@ -1,4 +1,4 @@
-# call-all-fns [![Build Status](https://travis-ci.org/bendrucker/call-all-fns.svg?branch=master)](https://travis-ci.org/bendrucker/call-all-fns)
+# call-all-fns [![Build Status](https://travis-ci.org/bendrucker/call-all-fns.svg?branch=master)](https://travis-ci.org/bendrucker/call-all-fns) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/call-all-fns.svg)](https://greenkeeper.io/)
 
 > Wrap a set of functions in a single function that calls each
 
